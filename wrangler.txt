@@ -2,6 +2,9 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "werk-dag-calculator",
   "compatibility_date": "2025-11-22",
+  "assets": {
+    "directory": "./dist"
+  },
   "route": {
     "pattern": "werkdag.nickvbn.eu/*",
     "zone_id": "b71d339f668d834b469b6d609fe73436"
